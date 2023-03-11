@@ -29,3 +29,8 @@ print("The winners are: ", ", ".join(winners))
 print("Ticket allocation:")
 for person, num_tickets in interested_people.items():
     print(person + ": " + str(num_tickets))
+
+    
+# We first define the total number of tickets available and the number of tickets requested by each interested person. We then calculate the total number of tickets requested by all interested people and determine the number of winners (up to a maximum of 2). We create a list of all interested people and randomly select the winners./
+# We then calculate the total number of tickets assigned to the winners and allocate the remaining tickets to the non-winners. We do this by iterating over all interested people who did not win and assigning them the minimum of the number of tickets they requested and the number of tickets left.
+# Finally, we print out the winners and the final allocation of tickets to all interested people. Note that in this version of the script, all interested people are taken into consideration even if there aren't enough tickets for all of them.
