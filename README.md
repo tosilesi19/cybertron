@@ -1,2 +1,2 @@
 # cybertron
-Programming Repo - Random Learning Scripts
+ChatGPT Scripts
